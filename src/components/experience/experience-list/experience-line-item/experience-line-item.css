@@ -1,0 +1,32 @@
+.experience-line-item{
+    display: grid;
+}
+
+.experience-line-item .experience-line-item-header{
+    grid-row: 1;
+    grid-template-columns: 80% 20%;
+    display: grid;
+}
+
+.experience-line-item-header .company-name{
+    grid-column: 1;
+
+    text-align: left;
+    font-weight: bold;
+}
+
+.experience-line-item-header .tenure{
+    grid-column: 2;
+
+    font-size: 12px;
+    font-weight: 100;
+    text-align: right;
+}
+
+.experience-line-item .job-title{
+    grid-row: 2;
+
+    font-weight: 100;
+    font-style: italic;
+    text-align: left;
+}

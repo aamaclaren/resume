@@ -1,0 +1,34 @@
+{
+    "sectionTitle": "Programming Skills",
+    "categories": [
+        {
+            "id": 0,
+            "name": "Langugages",
+            "skills": [
+                {
+                    "id": 0,
+                    "name": "JavaScript (ES6)",
+                    "skillLevel": 9
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "UI Frameworks",
+            "skills": [
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Libraries",
+            "skills": [
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Testing Frameworks",
+            "skills": [
+            ]
+        }
+    ]
+}

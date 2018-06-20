@@ -1,0 +1,28 @@
+{
+    "experience": [
+        {
+            "id": "0",
+            "company": "NCR Corporation",
+            "title": "Software Developer",
+            "startDate": 1328504400000,
+            "endDate": 1464321600000,
+            "responsibilities": [
+                "something 1",
+                "something 2",
+                "something 3"
+            ]
+        },
+        {
+            "id": "1",
+            "company": "Cisco Systems",
+            "title": "UI Developer",
+            "startDate": 1464667200000,
+            "endDate": null,
+            "responsibilities": [
+                "something 4",
+                "something 5",
+                "something 6"
+            ]
+        }
+    ]
+}

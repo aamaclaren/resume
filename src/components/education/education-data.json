@@ -1,0 +1,23 @@
+{
+    "education": [
+        {
+            "id": "0",
+            "institution": "Valdosta State University",
+            "startDate": 1156737600000,
+            "endDate": 1323579600000,
+            "degreesEarned": [
+                {
+                    "id": "0",
+                    "type": "Bachelor of Science",
+                    "field": "Computer Science"
+                }
+            ],
+            "minorsEarned": [
+                {
+                    "id": "0",
+                    "field": "Philosophy"
+                }
+            ]
+        }
+    ]
+}

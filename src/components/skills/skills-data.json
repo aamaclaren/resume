@@ -9,6 +9,21 @@
                     "id": 0,
                     "name": "JavaScript (ES6)",
                     "skillLevel": 9
+                },
+                {
+                    "id": 1,
+                    "name": "Go",
+                    "skillLevel": 4
+                },
+                {
+                    "id": 2,
+                    "name": "Python",
+                    "skillLevel": 3
+                },
+                {
+                    "id": 3,
+                    "name": "Unix (bash)",
+                    "skillLevel": 6
                 }
             ]
         },
@@ -16,18 +31,63 @@
             "id": 1,
             "name": "UI Frameworks",
             "skills": [
+                {
+                    "id": 0,
+                    "name": "AngularJS",
+                    "skillLevel": 8
+                },
+                {
+                    "id": 1,
+                    "name": "Angular",
+                    "skillLevel": 2
+                },
+                {
+                    "id": 2,
+                    "name": "Aurelia",
+                    "skillLevel": 3
+                }
             ]
         },
         {
             "id": 2,
             "name": "Libraries",
             "skills": [
+                {
+                    "id": 0,
+                    "name": "React",
+                    "skillLevel": 5
+                },
+                {
+                    "id": 1,
+                    "name": "jQuery",
+                    "skillLevel": 7
+                },
+                {
+                    "id": 2,
+                    "name": "Underscore",
+                    "skillLevel": 7
+                }
             ]
         },
         {
             "id": 3,
             "name": "Testing Frameworks",
             "skills": [
+                {
+                    "id": 0,
+                    "name": "Jasmine",
+                    "skillLevel": 9
+                },
+                {
+                    "id": 1,
+                    "name": "Karma",
+                    "skillLevel": 7
+                },
+                {
+                    "id": 2,
+                    "name": "Jest",
+                    "skillLevel": 3
+                }
             ]
         }
     ]

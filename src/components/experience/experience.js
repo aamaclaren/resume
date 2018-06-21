@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SectionHeader from '../section-header/section-header';
+import Section from '../section/section';
 import ExperienceList from './experience-list/experience-list';
 import ExperienceData from './experience-data.json';
 import './experience.css';
@@ -8,10 +8,11 @@ class Experience extends Component {
   render() {
 
     return (
-        <div className="experience">
-          <SectionHeader sectionTitle="Experience"/>
+      <Section sectionName="experience" sectionTitle="Experience">
+        <div className="experience">  
           <ExperienceList experienceData={ExperienceData.experience}/>
         </div>
+      </Section>
     );
   }
 }

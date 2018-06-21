@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
-import SectionHeader from '../section-header/section-header';
+import Section from '../section/section';
 import EducationList from './education-list/education-list';
 import EducationData from './education-data.json';
 import './education.css';
 
 class Education extends Component {
   render() {
-    return (
+    return ( 
+      <Section sectionName="education" sectionTitle="Education">
         <div className="education">
-            <SectionHeader sectionTitle="Education"/>
-            <EducationList educationData={EducationData.education}/>
+          <EducationList educationData={EducationData.education}/>
         </div>
+      </Section>
     );
   }
 }

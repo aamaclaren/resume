@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SectionHeader from '../section-header/section-header';
+import Section from '../section/section';
 import SkillsData from './skills-data.json';
 import './skills.css';
 import SkillCategory from './skill-category/skill-category';
@@ -12,10 +12,11 @@ class Skills extends Component {
     );
 
     return (
+      <Section sectionName="skills" sectionTitle={SkillsData.sectionTitle}>
         <div className="skills">
-          <SectionHeader sectionTitle={SkillsData.sectionTitle}/>
           {skillCategories}
         </div>
+      </Section>
     );
   }
 }

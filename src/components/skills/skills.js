@@ -13,7 +13,7 @@ class Skills extends Component {
 
     return (
       <Section sectionName="skills" sectionTitle={SkillsData.sectionTitle}>
-        <div className="skills">
+        <div className="skills-container">
           {skillCategories}
         </div>
       </Section>

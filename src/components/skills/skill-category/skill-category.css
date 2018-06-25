@@ -1,0 +1,14 @@
+.skill-category {
+    text-align: center;
+}
+
+.skill-category .skill-category-header {
+    font-size: 14px;
+    font-family: Lato-Bold;
+}
+
+.skill-category .skill-category-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

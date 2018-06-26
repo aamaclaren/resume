@@ -1,5 +1,6 @@
 .experience-line-item{
     display: grid;
+    grid-row-gap:4px;
 }
 
 .experience-line-item .experience-line-item-header{
@@ -12,21 +13,29 @@
     grid-column: 1;
 
     text-align: left;
+    font-size: 18px;
     font-weight: bold;
 }
 
 .experience-line-item-header .tenure{
     grid-column: 2;
 
-    font-size: 12px;
-    font-weight: 100;
+    font-size: 14px;
     text-align: right;
 }
 
 .experience-line-item .job-title{
-    grid-row: 2;
+    font-family: Lato-Italic;
+    font-size:16px;
+}
 
-    font-weight: 100;
-    font-style: italic;
-    text-align: left;
+.experience-line-item .accomplishments-list {
+    list-style-type: none;
+    margin: 8px 0;
+    padding-left: 12px;
+}
+
+.experience-line-item .accomplishment-item {
+    font-family: Lato;
+    font-size: 14px;
 }

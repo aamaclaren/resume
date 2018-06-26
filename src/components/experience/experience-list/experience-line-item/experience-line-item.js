@@ -7,6 +7,9 @@ class ExperienceLineItem extends Component {
 
     const formattedStartDate = moment(this.props.experienceData.startDate).format('MMM YYYY');
     const formattedEndDate = this.props.experienceData.endDate ? moment(this.props.experienceData.endDate).format('MMM YYYY') : 'Current';
+    const accomplishmentItems = this.props.experienceData.accomplishments.map((accomplishmentItem) =>
+      <li className="accomplishment-item">{accomplishmentItem}</li>
+    );
 
     return (
         <div className="experience-line-item">
@@ -15,6 +18,9 @@ class ExperienceLineItem extends Component {
             <div className="tenure">{formattedStartDate} - {formattedEndDate}</div>
           </div>
           <div className="job-title">{this.props.experienceData.title}</div>
+          <ul className="accomplishments-list">
+            {accomplishmentItems}
+          </ul>
         </div>
     );
   }

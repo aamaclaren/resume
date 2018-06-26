@@ -1,4 +1,4 @@
 .experience-list{
     display:grid;
-    grid-row-gap: 40px;
+    grid-row-gap: 16px;
 }

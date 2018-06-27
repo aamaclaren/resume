@@ -1,0 +1,11 @@
+.institution-name {
+    font-size: var(--font-size-large);
+}
+
+.degree-list-item {
+    font-size: var(--font-size-small);
+}
+
+.minor-list-item {
+    font-size: var(--font-size-small);
+}

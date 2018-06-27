@@ -1,4 +1,5 @@
 .skill {
-    font-family: Lato-Italic;
-    font-size: 14px;
+    font-family: Lato-LightItalic;
+    font-weight: bold;
+    font-size: var(--font-size-small);
 }

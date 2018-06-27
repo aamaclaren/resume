@@ -3,7 +3,7 @@
 }
 
 .skill-category .skill-category-header {
-    font-size: 14px;
+    font-size: var(--font-size-small);
     font-family: Lato-Bold;
 }
 

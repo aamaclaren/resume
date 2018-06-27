@@ -5,6 +5,6 @@
 }
 
 .section-header .section-title {
-    font-size: 16px;
+    font-size: var(--font-size-medium);
     text-transform: uppercase;
 }

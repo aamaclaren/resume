@@ -13,20 +13,20 @@
     grid-column: 1;
 
     text-align: left;
-    font-size: 18px;
+    font-size: var(--font-size-large);
     font-weight: bold;
 }
 
 .experience-line-item-header .tenure{
     grid-column: 2;
 
-    font-size: 14px;
+    font-size: var(--font-size-small);
     text-align: right;
 }
 
 .experience-line-item .job-title{
     font-family: Lato-Italic;
-    font-size:16px;
+    font-size: var(--font-size-medium);
 }
 
 .experience-line-item .accomplishments-list {
@@ -37,5 +37,5 @@
 
 .experience-line-item .accomplishment-item {
     font-family: Lato;
-    font-size: 14px;
+    font-size: var(--font-size-small);
 }

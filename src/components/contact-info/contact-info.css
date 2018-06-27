@@ -3,14 +3,14 @@
 }
 
 .contact-info .contact-info-item {
-    font-size: 12px;
+    font-size: var(--font-size-extra-small);
     margin-top: 2px;
     margin-bottom: 2px;
 }
 
 .contact-info .contact-info-item.name {
-    font-size: 14px;
-    font-weight: bold;
+    font-family: Lato-Bold;
+    font-size: var(--font-size-small);
 }
 
 .contact-info .contact-info-item.repo a {

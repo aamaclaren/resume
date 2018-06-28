@@ -1,0 +1,13 @@
+.institution-line-item {
+    display: grid;
+    grid-row-gap: 4px;
+}
+
+.institution-name {
+    font-size: var(--font-size-large);
+}
+
+.degree-list-item,
+.minor-list-item {
+    font-size: var(--font-size-small);
+}

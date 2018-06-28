@@ -1,0 +1,4 @@
+.institution-list {
+    display: grid;
+    grid-row-gap: 16px;
+}

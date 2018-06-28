@@ -29,12 +29,6 @@
     font-size: var(--font-size-medium);
 }
 
-.experience-line-item .accomplishments-list {
-    list-style-type: none;
-    margin: 8px 0;
-    padding-left: 12px;
-}
-
 .experience-line-item .accomplishment-item {
     font-family: Lato;
     font-size: var(--font-size-small);

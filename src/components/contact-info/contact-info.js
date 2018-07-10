@@ -7,13 +7,13 @@ class ContactInfo extends Component {
   render() {
     return (
       <Section sectionName="contact-info">
-        <div className="contact-info">
-            <p className="contact-info-item name">{ContactInfoData.fullName}</p>
-            <p className="contact-info-item email">{ContactInfoData.email}</p>
-            <p className="contact-info-item mobile">{ContactInfoData.mobile}</p>
-            <p className="contact-info-item repo">
-              <a href={ContactInfoData.repository} target="_blank">{ContactInfoData.repository}</a>
-            </p>
+        <div className="contact-info-container">
+            <div className="contact-info-item contact-name">{ContactInfoData.name}</div>
+            <div className="contact-info-item contact-email">{ContactInfoData.email}</div>
+            <div className="contact-info-item contact-mobile">{ContactInfoData.mobile}</div>
+            <div className="contact-info-item contact-portfolio">
+              <a href={ContactInfoData.portfolio} target="_blank">{ContactInfoData.portfolio}</a>
+            </div>
         </div>
       </Section>
     );

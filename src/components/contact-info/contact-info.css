@@ -1,27 +1,27 @@
-.contact-info {
+.contact-info-container {
     text-align: center;
 }
 
-.contact-info .contact-info-item {
+.contact-info-item {
     font-size: var(--font-size-extra-small);
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 
-.contact-info .contact-info-item.name {
-    font-family: Lato-Bold;
-    font-size: var(--font-size-small);
-}
-
-.contact-info .contact-info-item.repo a {
-    color: inherit;
-    text-decoration: inherit;
-}
-
-.contact-info .contact-info-item:first-child {
+.contact-info-item:first-child{
     margin-top: 0px;
 }
 
-.contact-info .contact-info-item:last-child {
+.contact-info-item:last-child{
     margin-bottom: 0px;
+}
+
+.contact-name {
+    font-family: Lato-Bold;
+    font-size: var(--font-size-medium);
+}
+
+.contact-portfolio a {
+    color: inherit;
+    text-decoration: inherit;
 }

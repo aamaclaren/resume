@@ -3,4 +3,8 @@
     --font-size-medium: 16px;
     --font-size-small: 14px;
     --font-size-extra-small: 12px;
+
+    --gap-size-small: 4px;
+    --gap-size-medium: 12px;
+    --gap-size-large: 16px;
 }

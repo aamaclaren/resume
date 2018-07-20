@@ -10,5 +10,5 @@
 }
 
 .section-body {
-    padding: 16px 12px;
+    padding: var(--gap-size-large) var(--gap-size-medium);
 }

@@ -4,8 +4,8 @@
 
 .contact-info-item {
     font-size: var(--font-size-extra-small);
-    margin-top: 4px;
-    margin-bottom: 4px;
+    margin-top: var(--gap-size-small);
+    margin-bottom: var(--gap-size-small);
 }
 
 .contact-info-item:first-child{

@@ -9,8 +9,8 @@ class SkillCategory extends Component {
     const skills = _.sortBy(this.props.categoryData.skills, 'skillLevel')
       .reverse()
       .map((skill) =>
-        <li>
-          <Skill key={skill.id} skillData={skill}/>
+        <li key={skill.id}>
+          <Skill skillData={skill}/>
         </li>
     );
 

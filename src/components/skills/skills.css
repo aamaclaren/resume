@@ -1,6 +1,6 @@
 .skills-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-column-gap: var(--gap-size-medium);
-    grid-row-gap: var(--gap-size-large);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: space-between;
 }

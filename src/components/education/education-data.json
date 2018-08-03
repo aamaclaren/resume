@@ -18,6 +18,25 @@
                     "completionDate": 1323579600000
                 }
             ]
+        },
+        {
+            "id": "1",
+            "name": "Valdosta State University",
+            "degrees": [
+                {
+                    "id": "0",
+                    "type": "Bachelor of Science",
+                    "field": "Computer Science",
+                    "completionDate": 1323579600000
+                }
+            ],
+            "minors": [
+                {
+                    "id": "0",
+                    "field": "Philosophy",
+                    "completionDate": 1323579600000
+                }
+            ]
         }
     ]
 }

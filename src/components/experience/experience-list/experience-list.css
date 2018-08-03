@@ -1,4 +1,4 @@
 .experience-list{
-    display:grid;
-    grid-row-gap: var(--gap-size-large);
+    display: flex;
+    flex-direction: column;
 }

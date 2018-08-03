@@ -1,6 +1,12 @@
 .institution-line-item {
     display: grid;
     grid-row-gap: var(--gap-size-small);
+
+    margin-top: var(--gap-size-large);
+}
+
+.institution-line-item:first-child {
+    margin-top: 0;
 }
 
 .institution-name {

@@ -1,6 +1,12 @@
 .experience-line-item{
     display: grid;
     grid-row-gap: var(--gap-size-small);
+    
+    margin-bottom: var(--gap-size-large);
+}
+
+.experience-line-item:last-child {
+    margin-bottom: 0px;
 }
 
 .experience-line-item .experience-line-item-header{

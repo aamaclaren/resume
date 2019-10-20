@@ -1,27 +1,27 @@
 {
     "experience": [
         {
+            "id": "1",
+            "company": "Cisco Systems",
+            "title": "Senior UI Developer",
+            "startDate": 1464667200000,
+            "endDate": null,
+            "accomplishments": [
+                "Cisco Top Performer Award 2019",
+                "Worked within a community of teams to create the Stealthwatch Online Visibility Assessment cloud application demonstrating the value of the full Stealthwatch Enterprise Edition to potential customers",
+                "Initiated an internal UI Meetup Group to help promote cross team learning, collaboration, and communication"
+            ]
+        },
+        {
             "id": "0",
             "company": "NCR Corporation",
             "title": "Software Developer",
             "startDate": 1328504400000,
             "endDate": 1464321600000,
             "accomplishments": [
-                "something 1",
-                "something 2",
-                "something 3"
-            ]
-        },
-        {
-            "id": "1",
-            "company": "Cisco Systems",
-            "title": "UI Developer",
-            "startDate": 1464667200000,
-            "endDate": null,
-            "accomplishments": [
-                "something 4",
-                "something 5",
-                "something 6"
+                "Worked on a team to create a web based Indoor Wayfinding application for airports integrating with real time flight information services",
+                "Designed and developed a custom Java based Digital Ticketing solution with a small team for a series of VIP events at the NFL Super Bowl",
+                "Member of a team supporting a Java based DVD Rental Kiosk application"
             ]
         }
     ]

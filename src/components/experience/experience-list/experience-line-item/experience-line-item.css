@@ -38,4 +38,9 @@
 .experience-line-item .accomplishment-item {
     font-family: Lato;
     font-size: var(--font-size-small);
+    margin-top: var(--gap-size-small);
+}
+
+.experience-line-item .accomplishment-item:first-child {
+    margin-top: 0;
 }

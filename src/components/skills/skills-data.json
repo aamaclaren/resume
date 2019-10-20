@@ -18,12 +18,12 @@
                 {
                     "id": 2,
                     "name": "Python",
-                    "skillLevel": 3
+                    "skillLevel": 6
                 },
                 {
                     "id": 3,
                     "name": "Unix (bash)",
-                    "skillLevel": 6
+                    "skillLevel": 3
                 }
             ]
         },
@@ -39,7 +39,7 @@
                 {
                     "id": 1,
                     "name": "Angular",
-                    "skillLevel": 2
+                    "skillLevel": 4
                 },
                 {
                     "id": 2,
@@ -55,7 +55,7 @@
                 {
                     "id": 0,
                     "name": "React",
-                    "skillLevel": 5
+                    "skillLevel": 8
                 },
                 {
                     "id": 1,

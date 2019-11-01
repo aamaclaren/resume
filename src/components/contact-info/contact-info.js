@@ -3,6 +3,7 @@ import Section from '../section/section';
 import ContactInfoData from './contact-info-data.json';
 import './contact-info.css';
 
+
 class ContactInfo extends Component {
   render() {
     return (
